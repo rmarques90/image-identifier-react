@@ -1,3 +1,10 @@
+## Image identifier front project
+
+Project for Image identifier backend, in this same user repo.
+
+To work should change de url to request and validation token (must be the same from other application).
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
