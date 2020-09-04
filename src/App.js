@@ -9,8 +9,8 @@ import Snackbar from "@material-ui/core/Snackbar";
 import ItsHotDog from "./images/itshotdog.gif";
 import TooBadGif from "./images/toobad.gif";
 
-const urlToRequestUpload = process.env.BASE_URL || 'https://localhost/upload';
-const tokenToRequest = process.env.TOKEN_TO_REQUEST || 'token';
+const urlToRequestUpload = process.env.REACT_APP_BASE_URL || 'https://localhost/upload';
+const tokenToRequest = process.env.REACT_APP_TOKEN_TO_REQUEST || 'token';
 
 function App(props) {
     const [loading, setLoading] = useState(false);
